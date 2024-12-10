@@ -1,0 +1,109 @@
+ private void lbReceitas_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        ResetCampos();
+        //instancia a variável Ficheiro como XmlDocument
+        XmlDocument Ficheiro = new XmlDocument();
+
+        //carrega o ficheiro na variável
+        Ficheiro.Load(caminho);
+
+        //procura no ficheiro os campos que correspondem á datagridview
+        foreach (XmlNode no in Ficheiro.SelectNodes("//receitas"))
+        {
+            if (lbReceitas.SelectedItem != null)
+            {
+                if (no.Attributes[0].Value == lbReceitas.SelectedItem.ToString())
+                {
+                    txtNome.Text = no.Attributes[0].Value.ToString();
+                    txtTempo.Text = no.Attributes[1].Value.ToString();
+                    txtPorcoes.Text = no.Attributes[2].Value.ToString();
+                    cbDificuldade.Text = no.Attributes[3].Value.ToString();
+                    cbCategoria.Text = no.Attributes[4].Value.ToString();
+                    txtPreparacao.Text = no.Attributes[5].Value.ToString();
+                    lista_ingredientes.Clear();
+                    dgvListaIngredientes.Rows.Clear();
+                    foreach (XmlNode noFilho in Ficheiro.SelectNodes("//receitas//ingrediente"))
+                    {
+                        if (noFilho.ParentNode.Attributes[0].Value == no.Attributes[0].Value)
+                        {
+                            Ingrediente ingrediente1 = new Ingrediente(noFilho.Attributes[0].Value.ToString(), noFilho.Attributes[2].Value, int.Parse(noFilho.Attributes[1].Value.ToString()));
+                            lista_ingredientes.Add(ingrediente1);
+                            dgvListaIngredientes.Rows.Add(ingrediente1.nome_ingredienteP, ingrediente1.qtdP, ingrediente1.medidaP);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+ //instancia a variável Ficheiro como XmlDocument
+ XmlDocument Ficheiro = new XmlDocument();
+
+ //carrega o ficheiro na variável
+ Ficheiro.Load(caminho);
+
+ foreach (XmlNode no in Ficheiro.SelectNodes("//receitas"))
+ {
+     if (no.Attributes[0].Value.ToUpper() == txtNome.Text.ToUpper())
+     {
+         ResetCampos();
+         throw new Exception("Já existe uma Receita criada com o mesmo nome!!!");
+     }
+ }
+
+ Receita receitas = new Receita(txtNome.Text, int.Parse(txtTempo.Text), int.Parse(txtPorcoes.Text), cbDificuldade.Text, cbCategoria.Text, txtPreparacao.Text, lista_ingredientes);
+
+ //define o elemento
+ XmlElement Receitas = Ficheiro.CreateElement("receitas");
+
+ //define os atributos
+ XmlAttribute Nome = Ficheiro.CreateAttribute("nome");
+ XmlAttribute Tempo = Ficheiro.CreateAttribute("tempo");
+ XmlAttribute Porcoes = Ficheiro.CreateAttribute("porcoes");
+ XmlAttribute Dificuldade = Ficheiro.CreateAttribute("dificuldade");
+ XmlAttribute Categoria = Ficheiro.CreateAttribute("categoria");
+ XmlAttribute Preparacao = Ficheiro.CreateAttribute("preparacao");
+ 
+
+ //atribuir dados aos atributos
+ Nome.InnerText = receitas.nome_receitaP;
+ Tempo.InnerText = receitas.tempoP.ToString();
+ Porcoes.InnerText = receitas.porcoesP.ToString();
+ Dificuldade.InnerText = receitas.dificuldadeP;
+ Categoria.InnerText = receitas.categoriaP;
+ Preparacao.InnerText = receitas.preparacaoP;
+ Receitas.Attributes.Append(Nome);
+ Receitas.Attributes.Append(Tempo);
+ Receitas.Attributes.Append(Porcoes);
+ Receitas.Attributes.Append(Dificuldade);
+ Receitas.Attributes.Append(Categoria);
+ Receitas.Attributes.Append(Preparacao);
+ foreach (Ingrediente ingrediente in receitas.ingredientesP)
+ {
+     XmlElement Ingredientes = Ficheiro.CreateElement("ingrediente");
+     XmlAttribute Ingrediente = Ficheiro.CreateAttribute("nome");
+     XmlAttribute Qtd = Ficheiro.CreateAttribute("qtd");
+     XmlAttribute Medida = Ficheiro.CreateAttribute("medida");
+     Ingrediente.InnerText = ingrediente.nome_ingredienteP;
+     Qtd.InnerText = ingrediente.qtdP.ToString();
+     Medida.InnerText = ingrediente.medidaP;
+     Ingredientes.Attributes.Append(Ingrediente);
+     Ingredientes.Attributes.Append(Qtd);
+     Ingredientes.Attributes.Append(Medida);
+     Receitas.AppendChild(Ingredientes);
+ }
+
+ //adicionar nó ao ficheiro
+ Ficheiro.DocumentElement.AppendChild(Receitas);
+
+ //gravar as alterações
+ Ficheiro.Save(caminho);
+
+ this.Hide();
+
+ ResetCampos();
+
+ MessageBox.Show("Receita introduzida com sucesso!!!");
+
+ this.Close();

@@ -1,0 +1,10 @@
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\App37\App37\bin\Debug\App37.exe.config
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\App37\App37\bin\Debug\App37.exe
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\App37\App37\bin\Debug\App37.pdb
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\App37\App37\obj\Debug\App37.csproj.AssemblyReference.cache
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\App37\App37\obj\Debug\App37.Form1.resources
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\App37\App37\obj\Debug\App37.Properties.Resources.resources
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\App37\App37\obj\Debug\App37.csproj.GenerateResource.cache
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\App37\App37\obj\Debug\App37.csproj.CoreCompileInputs.cache
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\App37\App37\obj\Debug\App37.exe
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\App37\App37\obj\Debug\App37.pdb

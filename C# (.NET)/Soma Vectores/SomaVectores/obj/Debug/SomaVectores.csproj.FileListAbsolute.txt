@@ -1,0 +1,10 @@
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\SomaVectores\SomaVectores\bin\Debug\SomaVectores.exe.config
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\SomaVectores\SomaVectores\bin\Debug\SomaVectores.exe
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\SomaVectores\SomaVectores\bin\Debug\SomaVectores.pdb
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\SomaVectores\SomaVectores\obj\Debug\SomaVectores.csproj.AssemblyReference.cache
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\SomaVectores\SomaVectores\obj\Debug\SomaVectores.Form1.resources
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\SomaVectores\SomaVectores\obj\Debug\SomaVectores.Properties.Resources.resources
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\SomaVectores\SomaVectores\obj\Debug\SomaVectores.csproj.GenerateResource.cache
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\SomaVectores\SomaVectores\obj\Debug\SomaVectores.csproj.CoreCompileInputs.cache
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\SomaVectores\SomaVectores\obj\Debug\SomaVectores.exe
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\SomaVectores\SomaVectores\obj\Debug\SomaVectores.pdb

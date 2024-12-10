@@ -1,0 +1,11 @@
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\Contadores\Contadores\bin\Debug\Contadores.exe.config
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\Contadores\Contadores\bin\Debug\Contadores.exe
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\Contadores\Contadores\bin\Debug\Contadores.pdb
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\Contadores\Contadores\obj\Debug\Contadores.csproj.AssemblyReference.cache
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\Contadores\Contadores\obj\Debug\Contadores.Form1.resources
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\Contadores\Contadores\obj\Debug\Contadores.FrmListar.resources
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\Contadores\Contadores\obj\Debug\Contadores.Properties.Resources.resources
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\Contadores\Contadores\obj\Debug\Contadores.csproj.GenerateResource.cache
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\Contadores\Contadores\obj\Debug\Contadores.csproj.CoreCompileInputs.cache
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\Contadores\Contadores\obj\Debug\Contadores.exe
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\Contadores\Contadores\obj\Debug\Contadores.pdb

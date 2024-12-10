@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nunog\\Desktop\\EINST\\c#032024\\projectos\\App37\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AA474A-73A6-41CB-9D14-B7F4FDEEA44A}|App37\\App37.csproj|c:\\users\\nunog\\desktop\\einst\\c#032024\\projectos\\app37\\app37\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AA474A-73A6-41CB-9D14-B7F4FDEEA44A}|App37\\App37.csproj|solutionrelative:app37\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AA474A-73A6-41CB-9D14-B7F4FDEEA44A}|App37\\App37.csproj|c:\\users\\nunog\\desktop\\einst\\c#032024\\projectos\\app37\\app37\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E9AA474A-73A6-41CB-9D14-B7F4FDEEA44A}|App37\\App37.csproj|solutionrelative:app37\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\nunog\\Desktop\\EINST\\c#032024\\projectos\\App37\\App37\\Form1.cs",
+              "RelativeDocumentMoniker": "App37\\Form1.cs",
+              "ToolTip": "C:\\Users\\nunog\\Desktop\\EINST\\c#032024\\projectos\\App37\\App37\\Form1.cs",
+              "RelativeToolTip": "App37\\Form1.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAtwCEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T19:34:42.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nunog\\Desktop\\EINST\\c#032024\\projectos\\App37\\App37\\Form1.cs",
+              "RelativeDocumentMoniker": "App37\\Form1.cs",
+              "ToolTip": "C:\\Users\\nunog\\Desktop\\EINST\\c#032024\\projectos\\App37\\App37\\Form1.cs [Design]",
+              "RelativeToolTip": "App37\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T19:20:00.729Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

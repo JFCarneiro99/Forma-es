@@ -1,0 +1,10 @@
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\AvaliacaoAutomovel\AvaliacaoAutomovel\bin\Debug\AvaliacaoAutomovel.exe.config
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\AvaliacaoAutomovel\AvaliacaoAutomovel\bin\Debug\AvaliacaoAutomovel.exe
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\AvaliacaoAutomovel\AvaliacaoAutomovel\bin\Debug\AvaliacaoAutomovel.pdb
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\AvaliacaoAutomovel\AvaliacaoAutomovel\obj\Debug\AvaliacaoAutomovel.csproj.AssemblyReference.cache
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\AvaliacaoAutomovel\AvaliacaoAutomovel\obj\Debug\AvaliacaoAutomovel.Form1.resources
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\AvaliacaoAutomovel\AvaliacaoAutomovel\obj\Debug\AvaliacaoAutomovel.Properties.Resources.resources
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\AvaliacaoAutomovel\AvaliacaoAutomovel\obj\Debug\AvaliacaoAutomovel.csproj.GenerateResource.cache
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\AvaliacaoAutomovel\AvaliacaoAutomovel\obj\Debug\AvaliacaoAutomovel.csproj.CoreCompileInputs.cache
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\AvaliacaoAutomovel\AvaliacaoAutomovel\obj\Debug\AvaliacaoAutomovel.exe
+C:\Users\nunog\Desktop\EINST\c#032024\projectos\AvaliacaoAutomovel\AvaliacaoAutomovel\obj\Debug\AvaliacaoAutomovel.pdb

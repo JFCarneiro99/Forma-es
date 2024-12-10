@@ -1,0 +1,20 @@
+C:\projetos\Aulas\Livro de Receitas\Livro de Receitas\bin\Debug\Livro de Receitas.exe.config
+C:\projetos\Aulas\Livro de Receitas\Livro de Receitas\bin\Debug\Livro de Receitas.exe
+C:\projetos\Aulas\Livro de Receitas\Livro de Receitas\bin\Debug\Livro de Receitas.pdb
+C:\projetos\Aulas\Livro de Receitas\Livro de Receitas\obj\Debug\Livro de Receitas.csproj.AssemblyReference.cache
+C:\projetos\Aulas\Livro de Receitas\Livro de Receitas\obj\Debug\Livro_de_Receitas.GestorDeReceitas.resources
+C:\projetos\Aulas\Livro de Receitas\Livro de Receitas\obj\Debug\Livro_de_Receitas.Properties.Resources.resources
+C:\projetos\Aulas\Livro de Receitas\Livro de Receitas\obj\Debug\Livro de Receitas.csproj.GenerateResource.cache
+C:\projetos\Aulas\Livro de Receitas\Livro de Receitas\obj\Debug\Livro de Receitas.csproj.CoreCompileInputs.cache
+C:\projetos\Aulas\Livro de Receitas\Livro de Receitas\obj\Debug\Livro de Receitas.exe
+C:\projetos\Aulas\Livro de Receitas\Livro de Receitas\obj\Debug\Livro de Receitas.pdb
+C:\Users\PC\Desktop\Livro de Receitas\Livro de Receitas\bin\Debug\Livro de Receitas.exe.config
+C:\Users\PC\Desktop\Livro de Receitas\Livro de Receitas\bin\Debug\Livro de Receitas.exe
+C:\Users\PC\Desktop\Livro de Receitas\Livro de Receitas\bin\Debug\Livro de Receitas.pdb
+C:\Users\PC\Desktop\Livro de Receitas\Livro de Receitas\obj\Debug\Livro de Receitas.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Livro de Receitas\Livro de Receitas\obj\Debug\Livro_de_Receitas.GestorDeReceitas.resources
+C:\Users\PC\Desktop\Livro de Receitas\Livro de Receitas\obj\Debug\Livro_de_Receitas.Properties.Resources.resources
+C:\Users\PC\Desktop\Livro de Receitas\Livro de Receitas\obj\Debug\Livro de Receitas.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\Livro de Receitas\Livro de Receitas\obj\Debug\Livro de Receitas.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Livro de Receitas\Livro de Receitas\obj\Debug\Livro de Receitas.exe
+C:\Users\PC\Desktop\Livro de Receitas\Livro de Receitas\obj\Debug\Livro de Receitas.pdb

@@ -1,0 +1,173 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Runtime.InteropServices.WindowsRuntime;
+using System.Security;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace aula1504
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("introduza o valor a escrever em forma de extenso ou numeração romana de 1 a 500");
+            int numero=int.Parse(Console.ReadLine());
+
+
+            while(numero<=0 || numero > 500)
+            {
+                Console.WriteLine("valor incorreto, introduza novamente");
+                 numero = int.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("-----Menu--------\n 1- escrever por extenso\n 2- escrever em numeração romana");
+            int opcao = int.Parse(Console.ReadLine());
+
+            if (opcao == 1)
+            {
+                Console.WriteLine("O valor escrito por extenso é " + extenso(numero));
+            }
+            else if (opcao == 2)
+            {
+                Console.WriteLine("o valor em numeração romanda é \n"+Romana(numero));
+            }
+            Console.ReadKey();
+        }
+        private static string Romana(int numero)
+        {
+            int centenas, dezenas, unidades;
+            string txtRomana = "";
+
+            centenas = numero / 100;
+            numero -= centenas * 100; // numero= numero-centenas*100
+
+            dezenas = numero / 10;
+            
+            unidades = numero % 10;
+
+            switch (centenas)
+            {
+                case 1: txtRomana = "C"; break;
+                case 2: txtRomana = "CC"; break;
+                case 3: txtRomana = "CCC"; break;
+                case 4: txtRomana = "CD"; break;
+                case 5: txtRomana = "D"; break;
+            }
+            switch (dezenas)
+            {
+                case 1: txtRomana += "X"; break;
+                case 2: txtRomana += "XX"; break;
+                case 3: txtRomana += "XXX"; break;
+                case 4: txtRomana += "XL"; break;
+                case 5: txtRomana += "L"; break;
+                case 6: txtRomana += "LX"; break;
+                case 7: txtRomana += "LXX"; break;
+                case 8: txtRomana += "LXXX"; break;
+                case 9: txtRomana += "XC"; break;
+            }
+            switch (unidades)
+            {
+                case 1: txtRomana += "I"; break;
+                case 2: txtRomana +="II"; break;
+                case 3: txtRomana += "III"; break;
+                case 4: txtRomana += "IV"; break;
+                case 5: txtRomana += "V"; break;
+                case 6: txtRomana += "VI"; break;
+                case 7: txtRomana += "VII"; break;
+                case 8: txtRomana += "VIII"; break;
+                case 9: txtRomana += "IX"; break;
+            }
+
+
+            return txtRomana;
+        }
+        private static string extenso(int numero)
+        {
+            int centenas, dezenas, unidades;
+            string txtExtenso = "";
+
+            centenas = numero / 100;
+            numero -= centenas * 100; // numero= numero-centenas*100
+
+            dezenas = numero / 10;
+
+            unidades = numero % 10;
+
+
+            switch (centenas)
+            {
+                case 1:
+                    if (dezenas==0 && unidades == 0)
+                    {
+                        txtExtenso = "Cem";
+                    }
+                    else
+                    {
+                        txtExtenso = "Cento";
+                    }
+                    break;
+                case 2: txtExtenso = "duzentos";break;
+                case 3: txtExtenso = "trazentos"; break;
+                case 4: txtExtenso = "quatrocentos"; break;
+                case 5: txtExtenso = "quinhentos"; break;
+            }
+            if ((txtExtenso!="")&& dezenas>0 && unidades > 0)
+            {
+                txtExtenso += " e ";
+            }
+            switch (dezenas)
+            {
+                case 1:
+                    switch (unidades)
+                    {
+                        case 0: txtExtenso += "dez"; break;
+                        case 1: txtExtenso += "onze"; break;
+                        case 2: txtExtenso += "doze"; break;
+                        case 3: txtExtenso += "treze"; break;
+                        case 4: txtExtenso += "Catorze"; break;
+                        case 5: txtExtenso += "quinze"; break;
+                        case 6: txtExtenso += "dezasseis"; break;
+                        case 7: txtExtenso += "dezassete"; break;
+                        case 8: txtExtenso += "dezoito"; break;
+                        case 9: txtExtenso += "dezanove"; break;
+                    }
+                    break;
+                case 2: txtExtenso += "vinte"; break;
+                case 3: txtExtenso += "trinta"; break;
+                case 4: txtExtenso += "quarenta"; break;
+                case 5: txtExtenso += "cinquenta"; break;
+                case 6: txtExtenso += "sessenta"; break;
+                case 7: txtExtenso += "setenta"; break;
+                case 8: txtExtenso += "oitenta"; break;
+                case 9: txtExtenso += "noventa"; break;
+
+            }
+            if((txtExtenso!="")&& dezenas>1 && unidades > 0)
+            {
+                txtExtenso += " e ";
+            }
+            if (dezenas != 1)
+            {
+                switch(unidades)
+                {
+                    case 1: txtExtenso += "Um"; break;
+                    case 2: txtExtenso += "Dois"; break;
+                    case 3: txtExtenso += "Três"; break;
+                    case 4: txtExtenso += "Quatro"; break;
+                    case 5: txtExtenso += "Cinco"; break;
+                    case 6: txtExtenso += "Seis"; break;
+                    case 7: txtExtenso += "Sete"; break;
+                    case 8: txtExtenso += "Oito"; break;
+                    case 9: txtExtenso += "Nove"; break;
+                }
+            }
+
+            return txtExtenso;
+        }
+
+    }
+}
